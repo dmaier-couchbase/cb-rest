@@ -5,6 +5,8 @@ There is sometimes the question how to read data from Couchbase by accessing a R
 
 The application can be configured by changing 'CB_HOST', 'CB_BUCKET' and 'CB_PWD' in the file 'cb.js':
 
+![screenshot](https://raw.githubusercontent.com/dmaier-couchbase/cb-rest/master/public/images/screenshot.png)
+
 BTW: The application was created by using the CEAN stack (http://ceanjs.org).
 
 ```
