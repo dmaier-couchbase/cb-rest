@@ -1,5 +1,7 @@
 # Node.js REST service example
 
+There is sometimes the question how to read data from Couchbase by accessing a REST service. This example how RESTFul bucket access is possible by using a Node.js application by having some basic application side authentication and auditing in place.
+
 The application can be configured by changing 'CB_HOST', 'CB_BUCKET' and 'CB_PWD' in the file 'cb.js':
 
 ```
@@ -19,7 +21,7 @@ I also added a file 'passwd.json' which contains the users and their passwords. 
 
 The service has one method, which is 'get'. This implementation returns the document data base64 encoded if it is a binary document and as JSON otherwise.
 
-* [https://github.com/dmaier-couchbase/cb-rest/blob/master/routes/get.js]
+* https://github.com/dmaier-couchbase/cb-rest/blob/master/routes/get.js
 
 To start the application navigate to the application directory and run 'node app.js'. Node.js needs to be installed.
 
