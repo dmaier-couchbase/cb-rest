@@ -2,7 +2,10 @@
 
 There is sometimes the question how to read data from Couchbase by accessing a REST service. This example shows how RESTFul bucket access is possible by using a Node.js application by having some basic application side authentication and auditing in place.
 
+
 The application can be configured by changing 'CB_HOST', 'CB_BUCKET' and 'CB_PWD' in the file 'cb.js':
+
+BTW: The application was created by using the CEAN stack (http://ceanjs.org).
 
 ```
 var CB_HOST = 'ubuntu-server';
