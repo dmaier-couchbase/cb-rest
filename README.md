@@ -1,6 +1,6 @@
 # Node.js REST service example
 
-There is sometimes the question how to read data from Couchbase by accessing a REST service. This example how RESTFul bucket access is possible by using a Node.js application by having some basic application side authentication and auditing in place.
+There is sometimes the question how to read data from Couchbase by accessing a REST service. This example shows how RESTFul bucket access is possible by using a Node.js application by having some basic application side authentication and auditing in place.
 
 The application can be configured by changing 'CB_HOST', 'CB_BUCKET' and 'CB_PWD' in the file 'cb.js':
 
