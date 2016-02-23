@@ -26,7 +26,13 @@ The service has one method, which is 'get'. This implementation returns the docu
 
 * https://github.com/dmaier-couchbase/cb-rest/blob/master/routes/get.js
 
-To start the application navigate to the application directory and run 'node app.js'. Node.js needs to be installed.
+To start the application navigate to the application directory and run 
+
+```
+node app.js
+```
+
+> Node.js needs to be installed.
 
 The service can be e.g. accessed via:
 
